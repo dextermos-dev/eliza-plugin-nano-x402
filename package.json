@@ -1,0 +1,29 @@
+{
+  "name": "@dextermos/eliza-plugin-nano-x402",
+  "version": "0.1.0",
+  "description": "ElizaOS plugin enabling autonomous AI agents to buy and consume Nano x402 resources with strict client-side spend guards",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "elizaos",
+    "eliza",
+    "nano",
+    "x402",
+    "ai-agent",
+    "micropayments"
+  ],
+  "author": "Dexter Mos / BountyHunter AI",
+  "license": "MIT",
+  "dependencies": {
+    "blakejs": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
